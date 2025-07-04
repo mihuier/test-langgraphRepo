@@ -1,0 +1,2129 @@
+{
+  "AIMessage": {
+    "_abc_impl": {
+      "_abc_data": {}
+    },
+    "_backwards_compat_tool_calls": "Callable: _backwards_compat_tool_calls",
+    "_calculate_keys": "Callable: _calculate_keys",
+    "_copy_and_set_values": "Callable: _copy_and_set_values",
+    "_get_value": "Callable: _get_value",
+    "_iter": "Callable: _iter",
+    "_setattr_handler": "Callable: _setattr_handler",
+    "additional_kwargs": {},
+    "construct": "Callable: construct",
+    "content": "7月1日是以下一些重要的节日或纪念日，具体取决于国家和地区：\n\n### 中国\n- **中国共产党成立纪念日**：1921年7月1日，中国共产党正式成立，因此这一天被定为中国共产党的建党节。在中国大陆，这是一个重要的政治节日。\n\n### 加拿大\n- **加拿大日**（Canada Day）：1982年之前称为“自治领日”（Dominion Day），1867年7月1日，加拿大联邦成立，成为英国的一个自治领，因此这一天是加拿大的国庆节。\n\n### 其他地区或国际方面\n- **国际颜色节**（International Joke Day 或 International Color Happiness Day）：在一些国家，7月1日也被用作庆祝色彩、快乐和幽默的日子，但不是官方节日。\n- **日本**：7月1日不是全国性节日，但在一些地方可能有特定的活动或纪念。\n\n如果你想知道某个特定国家或地区的7月1日是什么节日，请告诉我，我可以提供更详细的信息。",
+    "copy": "Callable: copy",
+    "dict": "Callable: dict",
+    "example": false,
+    "from_orm": "Callable: from_orm",
+    "get_lc_namespace": "Callable: get_lc_namespace",
+    "id": "run--4909b4a8-e10f-4021-a7cc-08a07ec47e10-0",
+    "invalid_tool_calls": [],
+    "is_lc_serializable": "Callable: is_lc_serializable",
+    "json": "Callable: json",
+    "lc_attributes": {
+      "tool_calls": [],
+      "invalid_tool_calls": []
+    },
+    "lc_id": "Callable: lc_id",
+    "lc_secrets": {},
+    "model_computed_fields": {},
+    "model_config": {
+      "extra": "allow"
+    },
+    "model_construct": "Callable: model_construct",
+    "model_copy": "Callable: model_copy",
+    "model_dump": "Callable: model_dump",
+    "model_dump_json": "Callable: model_dump_json",
+    "model_extra": {},
+    "model_fields": {
+      "content": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "_UnionGenericAlias": {
+                "_determine_new_args": "Callable: _determine_new_args",
+                "_getitem": "Callable: Union",
+                "_inst": true,
+                "_make_substitution": "Callable: _make_substitution",
+                "_name": null,
+                "_paramspec_tvars": false,
+                "copy_with": "Callable: copy_with"
+              }
+            },
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: Union",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "additional_kwargs": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "default_factory": {
+              "type": {
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "fromkeys": "Callable: fromkeys",
+                "get": "Callable: get",
+                "items": "Callable: items",
+                "keys": "Callable: keys",
+                "pop": "Callable: pop",
+                "popitem": "Callable: popitem",
+                "setdefault": "Callable: setdefault",
+                "update": "Callable: update",
+                "values": "Callable: values"
+              }
+            },
+            "annotation": {
+              "type": {
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "fromkeys": "Callable: fromkeys",
+                "get": "Callable: get",
+                "items": "Callable: items",
+                "keys": "Callable: keys",
+                "pop": "Callable: pop",
+                "popitem": "Callable: popitem",
+                "setdefault": "Callable: setdefault",
+                "update": "Callable: update",
+                "values": "Callable: values"
+              }
+            }
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": {
+            "FieldInfo": {
+              "_attributes_set": {
+                "default_factory": {
+                  "type": {
+                    "clear": "Callable: clear",
+                    "copy": "Callable: copy",
+                    "fromkeys": "Callable: fromkeys",
+                    "get": "Callable: get",
+                    "items": "Callable: items",
+                    "keys": "Callable: keys",
+                    "pop": "Callable: pop",
+                    "popitem": "Callable: popitem",
+                    "setdefault": "Callable: setdefault",
+                    "update": "Callable: update",
+                    "values": "Callable: values"
+                  }
+                }
+              },
+              "_collect_metadata": "Callable: _collect_metadata",
+              "_complete": true,
+              "_copy": "Callable: _copy",
+              "_from_dataclass_field": "Callable: _from_dataclass_field",
+              "_original_annotation": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_original_assignment": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_qualifiers": {
+                "set": {
+                  "add": "Callable: add",
+                  "clear": "Callable: clear",
+                  "copy": "Callable: copy",
+                  "difference": "Callable: difference",
+                  "difference_update": "Callable: difference_update",
+                  "discard": "Callable: discard",
+                  "intersection": "Callable: intersection",
+                  "intersection_update": "Callable: intersection_update",
+                  "isdisjoint": "Callable: isdisjoint",
+                  "issubset": "Callable: issubset",
+                  "issuperset": "Callable: issuperset",
+                  "pop": "Callable: pop",
+                  "remove": "Callable: remove",
+                  "symmetric_difference": "Callable: symmetric_difference",
+                  "symmetric_difference_update": "Callable: symmetric_difference_update",
+                  "union": "Callable: union",
+                  "update": "Callable: update"
+                }
+              },
+              "alias": null,
+              "alias_priority": null,
+              "annotation": null,
+              "apply_typevars_map": "Callable: apply_typevars_map",
+              "default": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "default_factory": "Callable: dict",
+              "default_factory_takes_validated_data": false,
+              "deprecated": null,
+              "deprecation_message": null,
+              "description": null,
+              "discriminator": null,
+              "examples": null,
+              "exclude": null,
+              "field_title_generator": null,
+              "from_annotated_attribute": "Callable: from_annotated_attribute",
+              "from_annotation": "Callable: from_annotation",
+              "from_field": "Callable: from_field",
+              "frozen": null,
+              "get_default": "Callable: get_default",
+              "init": null,
+              "init_var": null,
+              "is_required": "Callable: is_required",
+              "json_schema_extra": null,
+              "kw_only": null,
+              "merge_field_infos": "Callable: merge_field_infos",
+              "metadata": [],
+              "metadata_lookup": {
+                "strict": {
+                  "type": {
+                    "strict": true
+                  }
+                },
+                "gt": {
+                  "type": {
+                    "gt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "ge": {
+                  "type": {
+                    "ge": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "lt": {
+                  "type": {
+                    "lt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "le": {
+                  "type": {
+                    "le": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "multiple_of": {
+                  "type": {
+                    "multiple_of": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "min_length": {
+                  "type": {
+                    "min_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "max_length": {
+                  "type": {
+                    "max_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "pattern": null,
+                "allow_inf_nan": null,
+                "max_digits": null,
+                "decimal_places": null,
+                "union_mode": null,
+                "coerce_numbers_to_str": null,
+                "fail_fast": {
+                  "type": {
+                    "fail_fast": true
+                  }
+                }
+              },
+              "rebuild_annotation": "Callable: rebuild_annotation",
+              "repr": true,
+              "serialization_alias": null,
+              "title": null,
+              "validate_default": null,
+              "validation_alias": null
+            }
+          },
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: dict",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "default_factory": "Callable: dict",
+          "default_factory_takes_validated_data": false,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "response_metadata": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "default_factory": {
+              "type": {
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "fromkeys": "Callable: fromkeys",
+                "get": "Callable: get",
+                "items": "Callable: items",
+                "keys": "Callable: keys",
+                "pop": "Callable: pop",
+                "popitem": "Callable: popitem",
+                "setdefault": "Callable: setdefault",
+                "update": "Callable: update",
+                "values": "Callable: values"
+              }
+            },
+            "annotation": {
+              "type": {
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "fromkeys": "Callable: fromkeys",
+                "get": "Callable: get",
+                "items": "Callable: items",
+                "keys": "Callable: keys",
+                "pop": "Callable: pop",
+                "popitem": "Callable: popitem",
+                "setdefault": "Callable: setdefault",
+                "update": "Callable: update",
+                "values": "Callable: values"
+              }
+            }
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": {
+            "FieldInfo": {
+              "_attributes_set": {
+                "default_factory": {
+                  "type": {
+                    "clear": "Callable: clear",
+                    "copy": "Callable: copy",
+                    "fromkeys": "Callable: fromkeys",
+                    "get": "Callable: get",
+                    "items": "Callable: items",
+                    "keys": "Callable: keys",
+                    "pop": "Callable: pop",
+                    "popitem": "Callable: popitem",
+                    "setdefault": "Callable: setdefault",
+                    "update": "Callable: update",
+                    "values": "Callable: values"
+                  }
+                }
+              },
+              "_collect_metadata": "Callable: _collect_metadata",
+              "_complete": true,
+              "_copy": "Callable: _copy",
+              "_from_dataclass_field": "Callable: _from_dataclass_field",
+              "_original_annotation": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_original_assignment": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_qualifiers": {
+                "set": {
+                  "add": "Callable: add",
+                  "clear": "Callable: clear",
+                  "copy": "Callable: copy",
+                  "difference": "Callable: difference",
+                  "difference_update": "Callable: difference_update",
+                  "discard": "Callable: discard",
+                  "intersection": "Callable: intersection",
+                  "intersection_update": "Callable: intersection_update",
+                  "isdisjoint": "Callable: isdisjoint",
+                  "issubset": "Callable: issubset",
+                  "issuperset": "Callable: issuperset",
+                  "pop": "Callable: pop",
+                  "remove": "Callable: remove",
+                  "symmetric_difference": "Callable: symmetric_difference",
+                  "symmetric_difference_update": "Callable: symmetric_difference_update",
+                  "union": "Callable: union",
+                  "update": "Callable: update"
+                }
+              },
+              "alias": null,
+              "alias_priority": null,
+              "annotation": null,
+              "apply_typevars_map": "Callable: apply_typevars_map",
+              "default": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "default_factory": "Callable: dict",
+              "default_factory_takes_validated_data": false,
+              "deprecated": null,
+              "deprecation_message": null,
+              "description": null,
+              "discriminator": null,
+              "examples": null,
+              "exclude": null,
+              "field_title_generator": null,
+              "from_annotated_attribute": "Callable: from_annotated_attribute",
+              "from_annotation": "Callable: from_annotation",
+              "from_field": "Callable: from_field",
+              "frozen": null,
+              "get_default": "Callable: get_default",
+              "init": null,
+              "init_var": null,
+              "is_required": "Callable: is_required",
+              "json_schema_extra": null,
+              "kw_only": null,
+              "merge_field_infos": "Callable: merge_field_infos",
+              "metadata": [],
+              "metadata_lookup": {
+                "strict": {
+                  "type": {
+                    "strict": true
+                  }
+                },
+                "gt": {
+                  "type": {
+                    "gt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "ge": {
+                  "type": {
+                    "ge": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "lt": {
+                  "type": {
+                    "lt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "le": {
+                  "type": {
+                    "le": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "multiple_of": {
+                  "type": {
+                    "multiple_of": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "min_length": {
+                  "type": {
+                    "min_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "max_length": {
+                  "type": {
+                    "max_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "pattern": null,
+                "allow_inf_nan": null,
+                "max_digits": null,
+                "decimal_places": null,
+                "union_mode": null,
+                "coerce_numbers_to_str": null,
+                "fail_fast": {
+                  "type": {
+                    "fail_fast": true
+                  }
+                }
+              },
+              "rebuild_annotation": "Callable: rebuild_annotation",
+              "repr": true,
+              "serialization_alias": null,
+              "title": null,
+              "validate_default": null,
+              "validation_alias": null
+            }
+          },
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: dict",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "default_factory": "Callable: dict",
+          "default_factory_takes_validated_data": false,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "type": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "_LiteralGenericAlias": {
+                "_determine_new_args": "Callable: _determine_new_args",
+                "_getitem": "Callable: Literal",
+                "_inst": true,
+                "_make_substitution": "Callable: _make_substitution",
+                "_name": null,
+                "_paramspec_tvars": false,
+                "copy_with": "Callable: copy_with"
+              }
+            },
+            "default": "ai",
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": "ai",
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: Literal",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": "ai",
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "name": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "_UnionGenericAlias": {
+                "_determine_new_args": "Callable: _determine_new_args",
+                "_getitem": "Callable: Union",
+                "_inst": true,
+                "_make_substitution": "Callable: _make_substitution",
+                "_name": "Optional",
+                "_paramspec_tvars": false,
+                "copy_with": "Callable: copy_with"
+              }
+            },
+            "default": null,
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": null,
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: Optional",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": null,
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "id": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "default": null,
+            "coerce_numbers_to_str": true,
+            "annotation": {
+              "_UnionGenericAlias": {
+                "_determine_new_args": "Callable: _determine_new_args",
+                "_getitem": "Callable: Union",
+                "_inst": true,
+                "_make_substitution": "Callable: _make_substitution",
+                "_name": "Optional",
+                "_paramspec_tvars": false,
+                "copy_with": "Callable: copy_with"
+              }
+            }
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": {
+            "FieldInfo": {
+              "_attributes_set": {
+                "default": null,
+                "coerce_numbers_to_str": true
+              },
+              "_collect_metadata": "Callable: _collect_metadata",
+              "_complete": true,
+              "_copy": "Callable: _copy",
+              "_from_dataclass_field": "Callable: _from_dataclass_field",
+              "_original_annotation": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_original_assignment": {
+                "PydanticUndefinedType": {
+                  "new": "Callable: new"
+                }
+              },
+              "_qualifiers": {
+                "set": {
+                  "add": "Callable: add",
+                  "clear": "Callable: clear",
+                  "copy": "Callable: copy",
+                  "difference": "Callable: difference",
+                  "difference_update": "Callable: difference_update",
+                  "discard": "Callable: discard",
+                  "intersection": "Callable: intersection",
+                  "intersection_update": "Callable: intersection_update",
+                  "isdisjoint": "Callable: isdisjoint",
+                  "issubset": "Callable: issubset",
+                  "issuperset": "Callable: issuperset",
+                  "pop": "Callable: pop",
+                  "remove": "Callable: remove",
+                  "symmetric_difference": "Callable: symmetric_difference",
+                  "symmetric_difference_update": "Callable: symmetric_difference_update",
+                  "union": "Callable: union",
+                  "update": "Callable: update"
+                }
+              },
+              "alias": null,
+              "alias_priority": null,
+              "annotation": null,
+              "apply_typevars_map": "Callable: apply_typevars_map",
+              "default": null,
+              "default_factory": null,
+              "default_factory_takes_validated_data": null,
+              "deprecated": null,
+              "deprecation_message": null,
+              "description": null,
+              "discriminator": null,
+              "examples": null,
+              "exclude": null,
+              "field_title_generator": null,
+              "from_annotated_attribute": "Callable: from_annotated_attribute",
+              "from_annotation": "Callable: from_annotation",
+              "from_field": "Callable: from_field",
+              "frozen": null,
+              "get_default": "Callable: get_default",
+              "init": null,
+              "init_var": null,
+              "is_required": "Callable: is_required",
+              "json_schema_extra": null,
+              "kw_only": null,
+              "merge_field_infos": "Callable: merge_field_infos",
+              "metadata": [
+                {
+                  "_PydanticGeneralMetadata": {
+                    "coerce_numbers_to_str": true
+                  }
+                }
+              ],
+              "metadata_lookup": {
+                "strict": {
+                  "type": {
+                    "strict": true
+                  }
+                },
+                "gt": {
+                  "type": {
+                    "gt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "ge": {
+                  "type": {
+                    "ge": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "lt": {
+                  "type": {
+                    "lt": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "le": {
+                  "type": {
+                    "le": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "multiple_of": {
+                  "type": {
+                    "multiple_of": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "min_length": {
+                  "type": {
+                    "min_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "max_length": {
+                  "type": {
+                    "max_length": {
+                      "member_descriptor": {}
+                    }
+                  }
+                },
+                "pattern": null,
+                "allow_inf_nan": null,
+                "max_digits": null,
+                "decimal_places": null,
+                "union_mode": null,
+                "coerce_numbers_to_str": null,
+                "fail_fast": {
+                  "type": {
+                    "fail_fast": true
+                  }
+                }
+              },
+              "rebuild_annotation": "Callable: rebuild_annotation",
+              "repr": true,
+              "serialization_alias": null,
+              "title": null,
+              "validate_default": null,
+              "validation_alias": null
+            }
+          },
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: Optional",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": null,
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [
+            {
+              "_PydanticGeneralMetadata": {
+                "coerce_numbers_to_str": true
+              }
+            }
+          ],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "example": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "type": {
+                "as_integer_ratio": "Callable: as_integer_ratio",
+                "bit_count": "Callable: bit_count",
+                "bit_length": "Callable: bit_length",
+                "conjugate": "Callable: conjugate",
+                "denominator": {
+                  "getset_descriptor": {}
+                },
+                "from_bytes": "Callable: from_bytes",
+                "imag": {
+                  "getset_descriptor": {}
+                },
+                "numerator": {
+                  "getset_descriptor": {}
+                },
+                "real": {
+                  "getset_descriptor": {}
+                },
+                "to_bytes": "Callable: to_bytes"
+              }
+            },
+            "default": false,
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": false,
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: bool",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": false,
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "tool_calls": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "GenericAlias": {
+                "append": "Callable: append",
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "count": "Callable: count",
+                "extend": "Callable: extend",
+                "index": "Callable: index",
+                "insert": "Callable: insert",
+                "pop": "Callable: pop",
+                "remove": "Callable: remove",
+                "reverse": "Callable: reverse",
+                "sort": "Callable: sort"
+              }
+            },
+            "default": [],
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": [],
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: list",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": [],
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "invalid_tool_calls": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "GenericAlias": {
+                "append": "Callable: append",
+                "clear": "Callable: clear",
+                "copy": "Callable: copy",
+                "count": "Callable: count",
+                "extend": "Callable: extend",
+                "index": "Callable: index",
+                "insert": "Callable: insert",
+                "pop": "Callable: pop",
+                "remove": "Callable: remove",
+                "reverse": "Callable: reverse",
+                "sort": "Callable: sort"
+              }
+            },
+            "default": [],
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": [],
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: list",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": [],
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      },
+      "usage_metadata": {
+        "FieldInfo": {
+          "_attributes_set": {
+            "annotation": {
+              "_UnionGenericAlias": {
+                "_determine_new_args": "Callable: _determine_new_args",
+                "_getitem": "Callable: Union",
+                "_inst": true,
+                "_make_substitution": "Callable: _make_substitution",
+                "_name": "Optional",
+                "_paramspec_tvars": false,
+                "copy_with": "Callable: copy_with"
+              }
+            },
+            "default": null,
+            "frozen": null
+          },
+          "_collect_metadata": "Callable: _collect_metadata",
+          "_complete": true,
+          "_copy": "Callable: _copy",
+          "_from_dataclass_field": "Callable: _from_dataclass_field",
+          "_original_annotation": {
+            "PydanticUndefinedType": {
+              "new": "Callable: new"
+            }
+          },
+          "_original_assignment": null,
+          "_qualifiers": {
+            "set": {
+              "add": "Callable: add",
+              "clear": "Callable: clear",
+              "copy": "Callable: copy",
+              "difference": "Callable: difference",
+              "difference_update": "Callable: difference_update",
+              "discard": "Callable: discard",
+              "intersection": "Callable: intersection",
+              "intersection_update": "Callable: intersection_update",
+              "isdisjoint": "Callable: isdisjoint",
+              "issubset": "Callable: issubset",
+              "issuperset": "Callable: issuperset",
+              "pop": "Callable: pop",
+              "remove": "Callable: remove",
+              "symmetric_difference": "Callable: symmetric_difference",
+              "symmetric_difference_update": "Callable: symmetric_difference_update",
+              "union": "Callable: union",
+              "update": "Callable: update"
+            }
+          },
+          "alias": null,
+          "alias_priority": null,
+          "annotation": "Callable: Optional",
+          "apply_typevars_map": "Callable: apply_typevars_map",
+          "default": null,
+          "default_factory": null,
+          "default_factory_takes_validated_data": null,
+          "deprecated": null,
+          "deprecation_message": null,
+          "description": null,
+          "discriminator": null,
+          "examples": null,
+          "exclude": null,
+          "field_title_generator": null,
+          "from_annotated_attribute": "Callable: from_annotated_attribute",
+          "from_annotation": "Callable: from_annotation",
+          "from_field": "Callable: from_field",
+          "frozen": null,
+          "get_default": "Callable: get_default",
+          "init": null,
+          "init_var": null,
+          "is_required": "Callable: is_required",
+          "json_schema_extra": null,
+          "kw_only": null,
+          "merge_field_infos": "Callable: merge_field_infos",
+          "metadata": [],
+          "metadata_lookup": {
+            "strict": {
+              "type": {
+                "strict": true
+              }
+            },
+            "gt": {
+              "type": {
+                "gt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "ge": {
+              "type": {
+                "ge": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "lt": {
+              "type": {
+                "lt": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "le": {
+              "type": {
+                "le": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "multiple_of": {
+              "type": {
+                "multiple_of": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "min_length": {
+              "type": {
+                "min_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "max_length": {
+              "type": {
+                "max_length": {
+                  "member_descriptor": {}
+                }
+              }
+            },
+            "pattern": null,
+            "allow_inf_nan": null,
+            "max_digits": null,
+            "decimal_places": null,
+            "union_mode": null,
+            "coerce_numbers_to_str": null,
+            "fail_fast": {
+              "type": {
+                "fail_fast": true
+              }
+            }
+          },
+          "rebuild_annotation": "Callable: rebuild_annotation",
+          "repr": true,
+          "serialization_alias": null,
+          "title": null,
+          "validate_default": null,
+          "validation_alias": null
+        }
+      }
+    },
+    "model_fields_set": {
+      "set": {
+        "add": "Callable: add",
+        "clear": "Callable: clear",
+        "copy": "Callable: copy",
+        "difference": "Callable: difference",
+        "difference_update": "Callable: difference_update",
+        "discard": "Callable: discard",
+        "intersection": "Callable: intersection",
+        "intersection_update": "Callable: intersection_update",
+        "isdisjoint": "Callable: isdisjoint",
+        "issubset": "Callable: issubset",
+        "issuperset": "Callable: issuperset",
+        "pop": "Callable: pop",
+        "remove": "Callable: remove",
+        "symmetric_difference": "Callable: symmetric_difference",
+        "symmetric_difference_update": "Callable: symmetric_difference_update",
+        "union": "Callable: union",
+        "update": "Callable: update"
+      }
+    },
+    "model_json_schema": "Callable: model_json_schema",
+    "model_parametrized_name": "Callable: model_parametrized_name",
+    "model_post_init": "Callable: model_post_init",
+    "model_rebuild": "Callable: model_rebuild",
+    "model_validate": "Callable: model_validate",
+    "model_validate_json": "Callable: model_validate_json",
+    "model_validate_strings": "Callable: model_validate_strings",
+    "name": null,
+    "parse_file": "Callable: parse_file",
+    "parse_obj": "Callable: parse_obj",
+    "parse_raw": "Callable: parse_raw",
+    "pretty_print": "Callable: pretty_print",
+    "pretty_repr": "Callable: pretty_repr",
+    "response_metadata": {
+      "token_usage": {
+        "completion_tokens": 222,
+        "prompt_tokens": 60,
+        "total_tokens": 282,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        }
+      },
+      "model_name": "qwen-plus",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+    },
+    "schema": "Callable: schema",
+    "schema_json": "Callable: schema_json",
+    "text": "Callable: text",
+    "to_json": "Callable: to_json",
+    "to_json_not_implemented": "Callable: to_json_not_implemented",
+    "tool_calls": [],
+    "type": "ai",
+    "update_forward_refs": "Callable: update_forward_refs",
+    "usage_metadata": null,
+    "validate": "Callable: validate"
+  }
+}
